@@ -1,0 +1,21 @@
+2025-05-27 03:49:46,253 - ERROR - Application failed to start: name 'ICON_PATH' is not defined
+Traceback (most recent call last):
+  File "c:\A - PROJECTS\windows-optimization-tool\src\main.py", line 128, in main
+    window = MainWindow()
+             ^^^^^^^^^^^^
+  File "c:\A - PROJECTS\windows-optimization-tool\src\main.py", line 37, in __init__
+    if QFile.exists(ICON_PATH):
+                    ^^^^^^^^^
+NameError: name 'ICON_PATH' is not defined
+2025-05-27 03:51:19,238 - INFO - Window icon loaded successfully
+2025-05-27 03:51:19,239 - INFO - Window geometry restored
+2025-05-27 03:51:19,343 - INFO - Application started successfully
+2025-05-27 03:52:55,392 - INFO - Window icon loaded successfully
+2025-05-27 03:52:55,393 - INFO - Window geometry restored
+2025-05-27 03:52:55,486 - INFO - Application started successfully
+2025-05-27 03:53:55,118 - INFO - Window icon loaded successfully
+2025-05-27 03:53:55,118 - INFO - Window geometry restored
+2025-05-27 03:53:55,210 - INFO - Application started successfully
+2025-05-27 03:56:16,240 - INFO - Window icon loaded successfully
+2025-05-27 03:56:16,241 - INFO - Window geometry restored
+2025-05-27 03:56:16,335 - INFO - Application started successfully
